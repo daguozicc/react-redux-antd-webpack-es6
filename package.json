@@ -6,8 +6,8 @@
   "scripts": {
     "test": "hello word",
     "build": "babel src -d lib",
-    "start": "webpack-dev-server --hot",
-    "dev":"webpack-dev-server --hot --inline --conent-base ./src"
+    "start": "webpack-dev-server --inline --content-base --hot",
+    "dev": "webpack-dev-server --hot --inline --conent-base ./dist"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "webpack",
     "es6"
   ],
-   "browserslist": [
+  "browserslist": [
     "defaults",
     "not ie < 11",
     "last 2 versions",

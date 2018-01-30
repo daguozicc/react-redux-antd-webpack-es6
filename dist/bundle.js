@@ -943,9 +943,23 @@ module.exports = focusNode;
 var React = __webpack_require__(4);
 var ReactDOM = __webpack_require__(18);
 ReactDOM.render(React.createElement(
-  'h1',
+  'div',
   null,
-  'Hello, world!'
+  React.createElement(
+    'h1',
+    null,
+    'Hello, world!'
+  ),
+  React.createElement(
+    'span',
+    null,
+    '\u4F60\u597D!!!!'
+  ),
+  React.createElement(
+    'span',
+    null,
+    '\u6211\u4E0D\u597D!'
+  )
 ), document.getElementById('example'));
 
 /***/ }),
